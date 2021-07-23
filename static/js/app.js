@@ -14,4 +14,4 @@ d3.json("../../data/samples.json").then((data) => {
 function init() {
     defaultDataset = data.samples.filter(sample => sample.id === "940")[0];
     console.log(defaultDataset);
-}
+};
